@@ -11,14 +11,21 @@ footer {
                 padding: 0 2rem;
 
                 &:hover {
-                    color: grey;
+                    color: gray;
                 }
             }
         }
     }
 }
 
+main {
+    span {
+        font-weight: normal;
+        color: gray;
+    }
+}
+
 footer {
-    color: grey;
+    color: gray;
     background-color: black;
 }

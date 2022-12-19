@@ -6,7 +6,7 @@
     <div class="row g-4">
         @forelse($movies as $movie)
         <div class="col-4">
-            <div class="card border-0">
+            <div class="card bg-white border-0 shadow">
                 <div class="card-body">
                     <h3>Title: <span>{{$movie->title}}</span></h3>
                     <h4>Original Title: <span>{{$movie->title}}</span></h4>
