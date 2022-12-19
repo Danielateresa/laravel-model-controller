@@ -16,6 +16,7 @@
                 </div>
             </div>
         </div>
+        <!-- single movie details -->
         @empty
         <h3>Sorry, nothing to show now!</h3>
         @endforelse

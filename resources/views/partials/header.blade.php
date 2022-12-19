@@ -12,7 +12,7 @@
             </li>
             <li>
                 <a href="{{route('contacts')}}"
-                    class="nav-link {{Route::currentRouteName() === 'contacts' ? 'active' : ''}}">Contacts</a>
+                    class="nav-link {{Route::currentRouteName() === 'contacts' ? 'active' : ''}}">contacts</a>
             </li>
         </ul>
 
@@ -20,3 +20,4 @@
     </nav>
 
 </header>
+<!-- header -->

@@ -15,3 +15,4 @@
     </nav>
     <span>© 2022 Dany | Boolean - classe 72</span>
 </footer>
+<!-- footer -->
