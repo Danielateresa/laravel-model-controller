@@ -1,12 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
-<h1>Our Movies</h1>
-<div class="container">
+<h1 class="text-center text-black-50 bg-white py-3 shadow">Our Movies</h1>
+<div class="container py-5">
     <div class="row g-4">
         @forelse($movies as $movie)
         <div class="col-4">
-            <div class="card">
+            <div class="card border-0">
                 <div class="card-body">
                     <h3>Title: <span>{{$movie->title}}</span></h3>
                     <h4>Original Title: <span>{{$movie->title}}</span></h4>

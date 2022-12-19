@@ -1,1 +1,24 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+header,
+footer {
+    nav {
+        ul {
+            list-style: none;
+            padding: 1rem 0;
+
+            li {
+                padding: 0 2rem;
+
+                &:hover {
+                    color: grey;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    color: grey;
+    background-color: black;
+}
