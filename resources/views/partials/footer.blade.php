@@ -1,4 +1,5 @@
-<footer>
+<footer class="text-center py-3">
+
     <nav>
         <ul class="text-uppercase d-flex justify-content-center mb-0" id="navId">
             <li>
@@ -12,4 +13,5 @@
             </li>
         </ul>
     </nav>
+    <span>© 2022 Dany | Boolean - classe 72</span>
 </footer>

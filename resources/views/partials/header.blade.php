@@ -11,7 +11,8 @@
                     class="nav-link {{Route::currentRouteName() === 'about' ? 'active' : ''}}">about us</a>
             </li>
             <li>
-                <a href="#" class="nav-link">Contacts</a>
+                <a href="{{route('contacts')}}"
+                    class="nav-link {{Route::currentRouteName() === 'contacts' ? 'active' : ''}}">Contacts</a>
             </li>
         </ul>
 

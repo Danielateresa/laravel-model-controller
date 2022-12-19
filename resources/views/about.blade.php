@@ -41,6 +41,7 @@
                     obcaecati
                     provident quidem?
                 </p>
+                <h4 class="py-3 ms-auto"><a href="{{route('welcome')}}">Show more -></a></h4>
             </div>
         </div>
     </div>
