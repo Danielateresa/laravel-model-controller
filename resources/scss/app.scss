@@ -18,6 +18,13 @@ footer {
     }
 }
 
+header {
+    .active {
+        color: gray;
+
+    }
+}
+
 main {
     span {
         font-weight: normal;

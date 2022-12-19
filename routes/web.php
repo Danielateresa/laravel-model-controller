@@ -15,3 +15,4 @@ use App\Http\Controllers\Guest\PageController;
 */
 //controller che gestisce la rotta proncipale
 Route::get('/', [PageController::class, 'index'])->name('welcome');
+Route::get('/about', [PageController::class, 'about'])->name('about');
